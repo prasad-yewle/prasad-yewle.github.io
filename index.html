@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <!--Fancybox CSS-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <!--External CSS-->
+  <link href="css/index.css" rel="stylesheet">
+  <!--Font Awesome CSS-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+
+  <title>Prasad Yewle</title>
+  <!-- add icon link -->
+  <link rel="icon" href="media/bootstrapicon.jpeg" type="image/x-icon">
+</head>
+
+<body>
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top shadow-lg p-2">
+    <div class="container-fluid">
+      <a href="#top" class="brand scrollink active navbar-brand fs-4">&lt;Portfolio/&gt;</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item ">
+            <a class="nav-link scrollink active fs-5 " href="#about">About</a>
+          </li>
+          <li class="nav-item"></li>
+          <a class="nav-link scrollink active fs-5" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link scrollink active fs-5" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  scrollink active fs-5" href="#certificates">Certificates</a>
+          </li>
+      </div>
+    </div>
+  </nav>
+
+  <!--Description & Social-icons-->
+  <div class="container-fluid bg-color text-white text-center" id="top">
+    <h1 class="heading" style="font-family: 'Quicksand', sans-serif;">Prasad Yewle</h1>
+    <div class="typewriter">
+      <p class="heading2" style="font-family: 'Quicksand', sans-serif;">If happiness is a GOAL,then CODING should be a priority!</p>
+    </div>
+
+    <a href="https://github.com/prasad-yewle" class="social-icons"> <svg xmlns="http://www.w3.org/2000/svg" width="40"
+        height="35" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+        <path
+          d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+      </svg></a>
+
+    <a href="https://www.facebook.com/prasad.yewle/" class="social-icons"><svg xmlns="http://www.w3.org/2000/svg"
+        width="40" height="35" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+        <path
+          d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+      </svg></a>
+
+    <a href="https://instagram.com/prasad_yewle/" class="social-icons"><svg xmlns="http://www.w3.org/2000/svg"
+        width="40" height="35" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+        <path
+          d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+      </svg></a>
+
+    <a href="https://linkedin.com/in/prasad-yewle-a686111b1/" class="social-icons"><svg
+        xmlns="http://www.w3.org/2000/svg" width="40" height="35" fill="currentColor" class="bi bi-linkedin"
+        viewBox="0 0 16 16">
+        <path
+          d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+      </svg></a>
+    <br>
+    <a class="btn btn-outline-light btn-lg mt-5" href="https://drive.google.com/file/d/1aVFx-otXbkOqBxhpwKhzX3uLkO_L-_fC/view?usp=sharing" role="button" aria-label="Learn more about me"
+      style="font-family: 'Quicksand', sans-serif;">Resume</a>
+  </div>
+  </div>
+  </section>
+
+  <!--About-section/Bio-->
+  <div class="container-fluid about-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 about" id="about">
+          <div class="about-me">
+            <h1 style="font-family: 'Quicksand', sans-serif; margin-top:50px" class="text-center">About Me</h1>
+            <a class="effect" data-fancybox="gallery" href="media/profile.jpg"><img src="media/profile.jpg"
+                class="img-fluid mx-auto d-block profile effect1 shadow-lg p-2 mb-2" width="400px" height="70px"></a>
+            <h4 class="text-center" style="font-family:'Quicksand', sans-serif;font-weight:bolder;margin-top:50px">Hii
+              Everyone!&#128075;</h4>
+            <p class=" fs-6 para-me text-justify">My name is Prasad Yewle.I'm from India.I completed my graduation in
+              2020 from K.M Agrawal College,Kalyan(W) with a degree Bachelor of Science in Information
+              Technology.Currently
+              looking for a job in IT industry for the role of software developer.I always thought of becoming a
+              software developer.
+              I still remember my first programming class where I executed my first program which was "Hello World!".
+              As I went through the BASIC tutorial, It was almost magic, being able to get the computer to do whatever I
+              wanted.
+              Throughout my graduation I learned different languages and frameworks that helped me enhance my technical skills.
+              I love applying responsive design principles and watch my web pages shrink into mobile screens. It's oddly
+              satisfying for me to be honest.So,now this passion remains with me.There's certainly yet more to learn,yet more problems to solve,and yet more to build.This is just the beginning.And it's only going to get better from here.  </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Skills-->
+  <div class="container-fluid my-skills " id="skills">
+    <div class="container">
+      <h1 class="text-center skills"> Skills</h1>
+      <div class="wrap ">
+        <div class="col-8 ">
+          <!--Tabs-->
+          <nav>
+            <div class="nav nav-tabs nav-justified" id="nav-tab" role="tablist">
+              <button class="nav-link active technical-tab " id="nav-technical-tab" data-bs-toggle="tab"
+                data-bs-target="#nav-technical" type="button" role="tab" aria-controls="nav-technical"
+                aria-selected="true">Technical Skills</button>
+              <button class="nav-link soft-tab " id="nav-soft-tab" data-bs-toggle="tab" data-bs-target="#nav-soft" type="button"
+                role="tab" aria-controls="nav-soft" aria-selected="false">Soft Skills</button>
+            </div>
+          </nav>
+          <!--Technical Sills Tab-->
+          <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane show active " id="nav-technical" role="tabpanel" aria-labelledby="nav-technical-tab">
+              <h5 class="title" style="color: #DB3A34;">HTML5</h5>
+              <div class="progress progress-rounded shadow-lg" title="90%">
+                <div class="progress-bar progress-bar-striped active progress-bar-html" style="width: 90%">
+                </div>
+              </div>
+
+              <h5 class="title" style="color: #084C61;">CSS3</h5>
+              <div class="progress progress-rounded shadow-lg " title="85%">
+                <div class="progress-bar progress-bar-striped active progress-bar-css" style="width: 85%">
+                </div>
+              </div>
+
+              <h5 class="title" style="color: #007FC5;">Bootstrap5</h5>
+              <div class="progress progress-rounded shadow-lg " title="80%">
+                <div class="progress-bar progress-bar-striped active progress-bar-bootstrap" style="width: 80%">
+                </div>
+              </div>
+
+              <h5 class="title" style="color:#F4B015">Python</h5>
+              <div class="progress progress-rounded shadow-lg " title="75%">
+                <div class="progress-bar progress-bar-striped active progress-bar-python" style="width: 75%">
+                </div>
+              </div>
+            
+              <h5 class="title" style="color: #5A68A5;">MySQL</h5>
+              <div class="progress progress-rounded shadow-lg" style="color: #5A68A5;" title="70%">
+                <div class="progress-bar progress-bar-striped active progress-bar-mysql" style="width: 70%">
+                </div>
+              </div>
+
+              <h5 class="title" style="color: #41B883;">Flask</h5>
+              <div class="progress progress-rounded shadow-lg" title="65%">
+                <div class="progress-bar progress-bar-striped active progress-bar-flask" style="width: 65%">
+                </div>
+              </div>
+
+              <h5 class="title" style="color:#A52A2A">Javascript</h5>
+              <div class="progress progress-rounded shadow-lg" title="60%">
+                <div class="progress-bar progress-bar-striped active progress-bar-js" style="width: 60%">
+                </div>
+              </div>
+
+              <h5 class="title" style="color: #6DE039;">jQuery</h5>
+              <div class="progress progress-rounded shadow-lg" title="50%">
+                <div class="progress-bar progress-bar-striped active progress-bar-jquery" style="width: 50%">
+                </div>
+              </div>
+
+              <h5 class="title" style="color: #282C35;">Git</h5>
+              <div class="progress progress-rounded shadow-lg" title="40%">
+                <div class="progress-bar progress-bar-striped active progress-bar-git" style="width: 40%">
+                </div>
+              </div>
+            </div>
+
+            <!---Soft Skils Tab-->
+            <div class="tab-pane show " id="nav-soft" role="tabpanel" aria-labelledby="nav-soft-tab">
+              <h5 class="title" style="color: #DB3A34;">Goal Oriented</h5>
+              <div class="progress progress-rounded shadow-lg" title="80%">
+                <div class="progress-bar progress-bar-striped active progress-bar-html" style="width: 80%">
+                </div>
+              </div>
+
+              <h5 class="title" style="color: #084C61;">Collaboration</h5>
+              <div class="progress progress-rounded shadow-lg " title="70%">
+                <div class="progress-bar progress-bar-striped active progress-bar-css" style="width: 70%">
+                </div>
+              </div>
+
+              <h5 class="title" style="color: #007FC5;">Problem Solving</h5>
+              <div class="progress progress-rounded shadow-lg " title="75%">
+                <div class="progress-bar progress-bar-striped active progress-bar-bootstrap" style="width: 75%">
+                </div>
+              </div>
+
+              <h5 class="title" style="color:#F4B015">Positivity</h5>
+              <div class="progress progress-rounded shadow-lg " title="65%">
+                <div class="progress-bar progress-bar-striped active progress-bar-python" style="width: 65%">
+                </div>
+              </div>
+
+             <h5 class="title" style="color: #5A68A5;">Creativity</h5>
+              <div class="progress progress-rounded shadow-lg" style="color: #5A68A5;" title="70%">
+                <div class="progress-bar progress-bar-striped active progress-bar-mysql" style="width: 70%">
+                </div>
+              </div>
+
+              <h5 class="title" style="color: #41B883;">Adaptability</h5>
+              <div class="progress progress-rounded shadow-lg" title="75%">
+                <div class="progress-bar progress-bar-striped active progress-bar-flask" style="width: 75%">
+                </div>
+              </div>
+
+              <h5 class="title" style="color:#A52A2A">Organization</h5>
+              <div class="progress progress-rounded shadow-lg" title="60%">
+                <div class="progress-bar progress-bar-striped active progress-bar-js" style="width: 60%">
+                </div>
+              </div>
+
+              <h5 class="title" style="color: #282C35;">Empathy</h5>
+              <div class="progress progress-rounded shadow-lg" title="70%">
+                <div class="progress-bar progress-bar-striped active progress-bar-git" style="width:70%">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Projects-->
+  <div class="container-fluid project-section" id="projects">
+    <div class="container">
+      <div class="row">
+        <h1 class="text-center" style="font-family:'Quicksand', sans-serif;margin-top:50px; margin-bottom:50px">Projects
+        </h1>
+        <div class="col-12 col-sm-6 projects">
+          <div class="card shadow-lg p-3 mb-5 rounded">
+            <h5 class="card-header text-center text-white fw-bold shadow-lg">web-portfolio</h5>
+            <div class="card-body">
+              <h6 class="card-title text-center fw-bold">The personal website/portfolio of Prasad Yewle.</h6>
+              <p class="card-text text-center">I have created this website by using HTML5,CSS3,Bootstrap 5 and jQuery.To
+                showcase my recent projects and to introduce myself.
+              </p>
+              <div class="btn-center">
+                <a href="https://github.com/prasad-yewle/web-portfolio" class="btn btn-outline-dark btn-space"><i
+                    class="fa fa-github" aria-hidden="true"></i> Repo</a>
+                <a href="https://github.com/prasad-yewle/web-portfolio/archive/master.zip"
+                  class="btn btn-outline-dark "><i class="fa fa-github"></i> Clone Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 projects">
+          <div class="card shadow-lg p-3 mb-5 rounded">
+            <h5 class="card-header text-center text-white fw-bold shadow-lg  ">static-website</h5>
+            <div class="card-body">
+              <h6 class="card-title text-center fw-bold">This website is based on Elon Musk.</h6>
+              <p class="card-text text-center">I have built this website by using HTML5 , CSS3 and Bootstrap 5.This site
+                includes information such as personal life of musk,companies,projects,etc.</p>
+              <div class="btn-center">
+                <a href="https://github.com/prasad-yewle/static-website" class="btn btn-outline-dark btn-space"><i
+                    class="fa fa-github" aria-hidden="true"></i> Repo</a>
+                <a href="https://github.com/prasad-yewle/static-website/archive/master.zip"
+                  class="btn btn-outline-dark"><i class="fa fa-github"></i> Clone Project</a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-5 projects">
+          <div class="card shadow-lg p-3 mb-5 rounded">
+            <h5 class="card-header text-center text-white fw-bold shadow-lg ">menu-based-program</h5>
+            <div class="card-body">
+              <h6 class="card-title text-center fw-bold">This is a short python program where you can add,delete,and
+                update information.</h6>
+              <p class="card-text text-center">You need to enter any number based on your choice to get some output.
+              </p>
+              <div class="btn-center">
+                <a href="https://github.com/prasad-yewle/menu-based-program" class="btn btn-outline-dark btn-space"><i
+                    class="fa fa-github" aria-hidden="true"></i> Repo</a>
+                <a href="https://github.com/prasad-yewle/menu-based-program/archive/master.zip"
+                  class="btn btn-outline-dark btn-space"><i class="fa fa-github"></i> Clone Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!--Certificates-->
+  <div class="container" id="certificates">
+    <div class="certificates container">
+      <h1 style="font-family: 'Quicksand', sans-serif; margin-top:50px; margin-bottom:10px;" class="text-center">
+        Certificates/Badge</h1>
+
+      <div class="img-container">
+        <a class="effects" data-fancybox="gallery" href="media/webdesign-big.jpg"><img src="media/webdesign.jpg"
+            class="img-fluid mx-auto d-block  shadow-lg p-1 mb-2"></a>
+      </div>
+
+      <div class="img-container">
+        <a class="effects" data-fancybox="gallery" href="media/mtapython-big.png"><img src="media/mtapython.png"
+            class="img-fluid mx-auto d-block  shadow-lg p-1 mb-2"></a>
+      </div>
+
+      <div class="img-container">
+        <a class="effects" data-fancybox="gallery" href="media/python-big.jpg"><img src="media/python.jpg"
+            class="img-fluid mx-auto d-block  shadow-lg p-1 mb-2"></a>
+      </div>
+
+      <div class="badge">
+        <div class="img-container">
+          <a class="effects" data-fancybox="gallery" href="media/mta-badgebig.png"><img src="media/mta-badgebig.png"
+              class="img-fluid mx-auto d-block" width="300px" height="300px" style="margin-bottom: 40px;"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid footer">
+    <div class="container ">
+      <h1 style="font-family:'Quicksand', sans-serif; margin-top:40px" class="text-center">Contact Me</h1>
+      <p class=" fs-6 " style="margin-top:30px;margin-bottom:3px">I'm currently looking for full-time Python/Django
+        developer,Software developer opportunities! if you know any position,or you have any questions,or you just wanna
+        leave any message,please feel free to email me at,</p>
+      <p class="text-center"><a href="mailto:prasadyewle199@gmail.com" style="text-decoration: none;"><i
+            class="fa fa-envelope" style="margin-right: 3.8px; color:#000"></i>prasadyewle199@gmail.com</a></p>
+      <p class="fs-7 text-center">Made with 💝 by <a href="https://github.com/prasad-yewle/"
+          class="badge-footer badge-dark">Prasad Yewle</a> </p>
+      <p class="footer-end"> Project code is open source.Feel free to fork on github and make your own version.</p>
+
+    </div>
+  </div>
+
+  <!--jQuery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+    integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+    integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <script>
+
+    //Smooth scroll
+    $("a.scrollink").click(function (event) {
+      event.preventDefault();
+      $("html, body").animate({ scrollTop: $($(this).attr("href")).offset().top }, 800);
+    });
+
+    //Image animation on-click
+    $('.effect').fancybox(
+      {
+        animationDuration: 350,
+        animationEffect: 'slide-in-out',
+      });
+
+    //Image animation on click
+    $('.effects').fancybox(
+      {
+        nextEffect: 'fade',
+        prevEffect: 'fade',
+        animationDuration: 350,
+        animationEffect: 'slide-in-out',
+      });
+
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,411 @@
+.navbar {
+  /*whichever you want*/
+  background-color: beige;
+  /*0.5 determines transparency value*/
+  opacity: 0.5;
+  font-weight: bold;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*Background-color*/
+.bg-color {
+  background: linear-gradient(136deg, rgb(68, 132, 206), rgb(85, 190, 178), rgb(255, 31, 98), rgb(155, 89, 182), #F08080, rgb(236, 240, 241)) 0% 0% / 1200% 1200%;
+  background-size: 200% 200%;
+  animation: gradient 17s ease-in-out infinite;
+  display: inline-block;
+  height: 700px;
+}
+
+/*Background-color-animation*/
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.heading {
+  margin-top: 120px;
+  font-family: sans-serif;
+}
+
+.heading2 {
+  margin-bottom: 50px;
+}
+
+.social-icons {
+  color: #fff;
+}
+
+.social-icons:hover {
+  color: #000;
+}
+
+.typewriter {
+  /* Ensures the content is not revealed until the animation */
+  overflow: hidden;
+  /* Ensures the content stays on same line */
+  white-space: nowrap;
+  margin: 0 auto;
+  /* Gives that scrolling effect as the typing happens */
+  animation: typing 8s steps(30, end)
+}
+
+/* The typing effect */
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+  to {
+    width: 100%
+  }
+}
+
+.about-me {
+  margin-top: 10px
+}
+
+/*Profile pic border*/
+
+.profile {
+  margin-top: 50px;
+  border-bottom-left-radius: 50% 40%;
+  border-bottom-right-radius: 50% 40%;
+}
+
+/*About Me*/
+.about-section {
+  background-color: #E8E8E8;
+}
+
+.para-me {
+  margin-top: 20px;
+  margin-bottom: 70px;
+  width: 100%;
+  font-family: 'Quicksand', sans-serif;
+  word-break: break-all;
+}
+
+.title {
+  font-weight: bolder;
+  font-size: 20px;
+  font-family: Verdana;
+  margin-top: 8px;
+}
+
+/*Skills section*/
+.skills {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.my-skills {
+  display: inline-block;
+  background: #F0F0F0;
+}
+
+/*Skills tab*/
+#nav-tab {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.technical-tab, .soft-tab {
+  color: #000;
+  font-size: 20px;
+}
+
+.progress {
+  height: 16px;
+  border-radius: 15px;
+  margin-top: -6px;
+  background-color: #fff;
+}
+
+/*Progress/skill bar inner color*/
+
+.progress-bar-html {
+  background-color: #DB3A34;
+  border-radius: 15px;
+}
+
+.progress-bar-css {
+  background-color: #084C61;
+  border-radius: 15px;
+}
+
+.progress-bar-bootstrap {
+  background-color: #007FC5;
+  border-radius: 15px;
+}
+
+.progress-bar-python {
+  background-color: #F4B015;
+  border-radius: 15px;
+}
+
+.progress-bar-mysql {
+  background-color: #5A68A5;
+  border-radius: 15px;
+}
+
+.progress-bar-flask {
+  background-color: #41B883;
+  border-radius: 15px;
+}
+
+.progress-bar-js {
+  background-color: #A52A2A;
+  border-radius: 15px;
+}
+
+.progress-bar-jquery {
+  background-color: #6DE039;
+  border-radius: 15px;
+}
+
+.progress-bar-git {
+  background-color: #282C35;
+  border-radius: 15px;
+}
+
+/*Progress bar animation*/
+
+.progress-bar.active, .progress.active .progress-bar {
+  -webkit-animation: progress-bar-stripes 1s linear infinite;
+  -o-animation: progress-bar-stripes 0.3s linear infinite;
+  animation: progress-bar-stripes 0.4s linear infinite;
+}
+
+/*Progress bar align middle*/
+
+.wrap {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+/*Project section*/
+.project-section {
+  background: #F8F8F8;
+  display: inline-block;
+}
+
+.projects {
+  font-family: 'Quicksand', sans-serif;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-header {
+  background-color: grey;
+}
+
+.card-title {
+  margin-top: 10px;
+}
+
+/*On-hover effect on images*/
+
+a img:hover {
+  position: relative;
+  top: -10px;
+}
+
+.btn-space {
+  margin-right: 8px;
+}
+
+.btn-center {
+  display: flex;
+  justify-content: center;
+}
+
+.badge {
+  display: flex;
+  justify-content: center;
+}
+
+.img-container {
+  margin-top: 30px;
+}
+
+.footer {
+  background-color: #F0F0F0;
+  display: inline-block;
+  font-family: 'Quicksand', sans-serif;
+  word-break: break-all;
+  text-align: center;
+  width: 100%;
+}
+
+.badge-dark {
+  background-color: #000;
+  color: #FFF;
+  text-decoration: none;
+}
+
+.badge-footer {
+  display: inline-block;
+  padding: .25em .4em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25rem;
+}
+
+.badge-footer:hover {
+  color: #fff;
+}
+
+.footer-end {
+  margin-top: -12px;
+  font-size: 10px;
+  margin-bottom: 50px;
+  font-weight: bolder;
+}
+
+/*Media queries for responsive design*/
+
+@media screen and (min-width: 280px) {
+  .heading {
+    font-size: 55px;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .heading {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 300px) {
+  .heading {
+    font-size: 45px;
+  }
+}
+
+@media screen and (min-width: 350px) {
+  .heading {
+    font-size: 60px;
+  }
+}
+
+@media screen and (min-width: 370px) {
+  .heading {
+    font-size: 65px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .heading {
+    font-size: 90px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .heading {
+    font-size: 90px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .heading {
+    font-size: 95px;
+    margin-top: 150px;
+  }
+}
+
+@media screen and (min-width: 200px) {
+  .heading2 {
+    font-size: 9px;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .heading2 {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 410px) {
+  .heading2 {
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .heading2 {
+    font-size: 24px;
+  }
+}
+
+
+@media screen and (min-width: 601px) {
+  .heading2 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .img-container {
+    float: left;
+    width: 33.33%;
+    padding: 20px;
+  }
+  .certificates::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+}
+
+@media screen and (min-width: 200px) {
+  .technical-tab, .soft-tab {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .technical-tab, .soft-tab {
+    font-size: 20px;
+  }
+}
+
+
+@media screen and (min-width: 200px) {
+  .bg-color {
+    background: linear-gradient(136deg, rgb(68, 132, 206), rgb(85, 190, 178), rgb(255, 31, 98), rgb(155, 89, 182), #F08080, rgb(236, 240, 241)) 0% 0% / 1200% 1200%;
+    background-size: 400% 180%;
+    animation: gradient 10s ease-in-out infinite;
+
+
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .bg-color {
+    background: linear-gradient(136deg, rgb(68, 132, 206), rgb(85, 190, 178), rgb(255, 31, 98), rgb(155, 89, 182), #F08080, rgb(236, 240, 241)) 0% 0% / 1200% 1200%;
+    background-size: 600% 600%;
+    animation: gradient 17s ease-in-out infinite;
+
+
+  }
+}
+
